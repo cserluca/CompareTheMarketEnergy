@@ -98,7 +98,7 @@ What payment type are you interested in? = All payment types
 
 ## Development Environment
 
-This test automation project was completed in Visual Studio 2015 using the C# language and .NET framework version 4.6.1.
+This test automation project was completed in Visual Studio 2015 using the C# language and .NET framework version 4.6.1. The operating system used was Microsoft Windows 10 Pro.
 
 The packages used in the development environment are: 
 
