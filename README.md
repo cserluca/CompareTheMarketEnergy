@@ -28,13 +28,21 @@ This test follows an Electricity-Only energy price comparison journey from the "
 The selected options as part of this test are:
 
 What is your postcode? = PE2 6YS
+
 Do you have your bill handy? = No, I don’t have my bill
+
 What do you want to compare? = Electricity only
+
 Who supplies your electricity? = I don’t know
+
 Do you use a pre-payment meter? = No
+
 Do you have an Economy 7 meter? = No
+
 How much do you currently spend on electricity? = £50 Monthly
+
 What tariff are you interested in? = All tariffs
+
 What payment type are you interested in? = All payment types
 
 ### GasyOnlyQuote
@@ -57,15 +65,25 @@ This test follows a Gas & Electricity energy price comparison journey from the "
 The selected options as part of this test are:
 
 What is your postcode? = PE2 6YS
+
 Do you have your bill handy? = No, I don’t have my bill
+
 What do you want to compare? =  Gas & Electricity 
+
 Who supplies your electricity? = I don’t know
+
 Who supplies your gas? = I don’t know
+
 Do you use a pre-payment meter? = No
+
 Do you have an Economy 7 meter? = No
+
 How much do you currently spend on electricity? = £50 Monthly
+
 How much do you currently spend on gas? = £50 Monthly
+
 What tariff are you interested in? = All tariffs
+
 What payment type are you interested in? = All payment types
 
 ## Development Environment
@@ -75,10 +93,15 @@ This test automation project was completed in Visual Studio 2015 using the C# la
 The packages used in the development environment are: 
 
 NUnit version 3.6.1
+
 Selenium.Support version 3.3.0
+
 Selenium.WebDriver version 3.3.0
+
 Selenium.WebDriver.ChromeDriver version 2.28.0
+
 SpecFlow version 2.1.0
+
 SpecFlow.NUnit version 2.1.0
 
 ## Test Framework
@@ -90,8 +113,11 @@ There are some general helper classes included as part of the project. These pro
 A Page Object Model (POM) design has been implemented as part of the project in order to make code cleaner and easy to understand. Within the Microsoft Visual Studio Solution Explorer window the "Page Object" folder contains the page objects for the four pages forming part of the energy comparison journey:
 
 YourSupplierPageObject.cs
+
 YourEnergyNoBillPageObject.cs
+
 YourDetailsPageObject.cs
+
 YourResultsPageObject.cs
 
 The Specflow framework has been used to define, manage and execute the tests in this project.
@@ -99,13 +125,17 @@ The Specflow framework has been used to define, manage and execute the tests in 
 Within the Microsoft Visual Studio Solution Explorer window the "Specflow Features" folder contains the BDD Gherkin feature files:
 
 ElectricityOnlyQuote.feature
+
 GasyOnlyQuote.feature
+
 GasAndElectricityQuote.feature
 
 Within the Microsoft Visual Studio Solution Explorer window the "Specflow Steps" folder contains the C# step definition files:
 
 ElectricityOnlyQuoteSteps.cs
+
 GasyOnlyQuoteSteps.cs
+
 GasAndElectricityQuoteSteps.cs
 
 ## Running The Tests
