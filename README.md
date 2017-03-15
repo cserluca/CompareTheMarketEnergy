@@ -14,7 +14,9 @@ As set out in the rules of the SDET test, three tests have been created in an at
 The three tests that comprise this test automation project are:
 
 ElectricityOnlyQuote
+
 GasyOnlyQuote
+
 GasAndElectricityQuote
 
 Each of the tests above record all price comparison results from the Results page. This information can be viewed by clicking on the "Output" link within the Test Explorer window once each test has completed successfully.
@@ -26,12 +28,12 @@ This test follows an Electricity-Only energy price comparison journey from the "
 The selected options as part of this test are:
 
 What is your postcode? = PE2 6YS
-Do you have your bill handy? = No, I don’t have my bill
+Do you have your bill handy? = No, I donâ€™t have my bill
 What do you want to compare? = Electricity only
-Who supplies your electricity? = I don’t know
+Who supplies your electricity? = I donâ€™t know
 Do you use a pre-payment meter? = No
 Do you have an Economy 7 meter? = No
-How much do you currently spend on electricity? = £50 Monthly
+How much do you currently spend on electricity? = Â£50 Monthly
 What tariff are you interested in? = All tariffs
 What payment type are you interested in? = All payment types
 
@@ -40,11 +42,11 @@ What payment type are you interested in? = All payment types
 This test follows a Gas-Only energy price comparison journey from the "Your Supplier" page to the "Your Results" page. 
 
 What is your postcode? = PE2 6YS
-Do you have your bill handy? = No, I don’t have my bill
+Do you have your bill handy? = No, I donâ€™t have my bill
 What do you want to compare? =  Gas only
-Who supplies your gas? = I don’t know
+Who supplies your gas? = I donâ€™t know
 Do you use a pre-payment meter? = No
-How much do you currently spend on gas? = £50 Monthly
+How much do you currently spend on gas? = Â£50 Monthly
 What tariff are you interested in? = All tariffs
 What payment type are you interested in? = All payment types
 
@@ -55,14 +57,14 @@ This test follows a Gas & Electricity energy price comparison journey from the "
 The selected options as part of this test are:
 
 What is your postcode? = PE2 6YS
-Do you have your bill handy? = No, I don’t have my bill
+Do you have your bill handy? = No, I donâ€™t have my bill
 What do you want to compare? =  Gas & Electricity 
-Who supplies your electricity? = I don’t know
-Who supplies your gas? = I don’t know
+Who supplies your electricity? = I donâ€™t know
+Who supplies your gas? = I donâ€™t know
 Do you use a pre-payment meter? = No
 Do you have an Economy 7 meter? = No
-How much do you currently spend on electricity? = £50 Monthly
-How much do you currently spend on gas? = £50 Monthly
+How much do you currently spend on electricity? = Â£50 Monthly
+How much do you currently spend on gas? = Â£50 Monthly
 What tariff are you interested in? = All tariffs
 What payment type are you interested in? = All payment types
 
