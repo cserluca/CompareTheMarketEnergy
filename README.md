@@ -45,18 +45,27 @@ What tariff are you interested in? = All tariffs
 
 What payment type are you interested in? = All payment types
 
+
 ### GasyOnlyQuote
 
 This test follows a Gas-Only energy price comparison journey from the "Your Supplier" page to the "Your Results" page. 
 
 What is your postcode? = PE2 6YS
+
 Do you have your bill handy? = No, I don’t have my bill
+
 What do you want to compare? =  Gas only
+
 Who supplies your gas? = I don’t know
+
 Do you use a pre-payment meter? = No
+
 How much do you currently spend on gas? = £50 Monthly
+
 What tariff are you interested in? = All tariffs
+
 What payment type are you interested in? = All payment types
+
 
 ### GasAndElectricityQuote
 
@@ -86,6 +95,7 @@ What tariff are you interested in? = All tariffs
 
 What payment type are you interested in? = All payment types
 
+
 ## Development Environment
 
 This test automation project was completed in Visual Studio 2015 using the C# language and .NET framework version 4.6.1.
@@ -103,6 +113,7 @@ Selenium.WebDriver.ChromeDriver version 2.28.0
 SpecFlow version 2.1.0
 
 SpecFlow.NUnit version 2.1.0
+
 
 ## Test Framework
 
@@ -137,6 +148,7 @@ ElectricityOnlyQuoteSteps.cs
 GasyOnlyQuoteSteps.cs
 
 GasAndElectricityQuoteSteps.cs
+
 
 ## Running The Tests
 
